@@ -1,0 +1,9 @@
+<ion-view view-title="Map">
+    <ion-content>
+        <ion-content scroll="false">
+            <leaflet data-tap-disabled="true" id="map" lf-center="map.center" defaults='map.defaults' layers="map.layers"></leaflet>
+            <div ng-if="!online">
+                <h2>network problem</h2></div>
+        </ion-content>
+    </ion-content>
+</ion-view>
