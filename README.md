@@ -20,7 +20,8 @@ Start new project:
 
 
 Download library and plugin:
-```bower insta```
+
+```bower install```
 
 ```npm install```
 
