@@ -1,15 +1,17 @@
-## Welcome to GitHub Pages
+## A Ionic template with leaflet map
 
 You can use the [editor on GitHub](https://github.com/bubbobne/leafletTemplate/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Required
+- Ionic
+- Bower
+- npm
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+### Libraries
+- [angular leaflet](http://tombatossals.github.io/angular-leaflet-directive/#!/)
+- [leaflet markercluster](https://github.com/Leaflet/Leaflet.markercluster)
 
 # Header 1
 ## Header 2
