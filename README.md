@@ -17,9 +17,11 @@ To build the project I have followed this [post](https://www.airpair.com/ionic-f
 Start new project:
 
 ```git clone https://github.com/bubbobne/leafletTemplate```
-Download library and plugin:
-```bower install
-npm install```
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Download library and plugin:
+```bower insta```
+
+```npm install```
+
+Then you can change the markersApi.js by adding your data or endpoint and personalize the layerModal.html to show value in markers.
