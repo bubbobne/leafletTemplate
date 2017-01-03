@@ -1,8 +1,8 @@
 ## A Ionic template with leaflet map
 
-You can use the [editor on GitHub](https://github.com/bubbobne/leafletTemplate/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have started this template from [sidemenu template](https://github.com/driftyco/ionic-starter-sidemenu). 
+This template contain a leaflet map with markers, using merkerclustering.
+To build the project I have followed this [post](https://www.airpair.com/ionic-framework/posts/production-ready-apps-with-ionic-framework) by Agustin Haller.
 
 ### Required
 - Ionic
@@ -13,26 +13,17 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - [angular leaflet](http://tombatossals.github.io/angular-leaflet-directive/#!/)
 - [leaflet markercluster](https://github.com/Leaflet/Leaflet.markercluster)
 
-# Header 1
-## Header 2
-### Header 3
+### Use
+Start new project:
 
-- Bulleted
-- List
+'''git clone https://github.com/bubbobne/leafletTemplate'''
 
-1. Numbered
-2. List
+Download library and plugin:
+''' 
+bower install
+npm install
+'''
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bubbobne/leafletTemplate/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
