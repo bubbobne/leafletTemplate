@@ -2,6 +2,10 @@
     <ion-content>
         <ion-content scroll="false">
             <leaflet data-tap-disabled="true" id="map" lf-center="map.center" defaults='map.defaults' layers="map.layers"></leaflet>
+
+            <button class="button button-float" ng-click="centerPosition()">
+                <i class="icon ion-android-locate"></i>
+            </button>
             <div ng-if="!online">
                 <h2>network problem</h2></div>
         </ion-content>

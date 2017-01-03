@@ -4,11 +4,11 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'markers.api', 'templates'])
+angular.module('starter', ['ionic', 'starter.controllers', 'markers.api', 'templates', 'ngCordova', 'ngCordova', 'leaflet-directive'])
 
 .run(["$ionicPlatform", "$rootScope", "$window", function ($ionicPlatform, $rootScope, $window) {
+    //check if there is network connection
     $rootScope.online = navigator.onLine;
-
     $window.addEventListener("offline", function () {
         $rootScope.$apply(function () {
             $rootScope.online = false;
@@ -21,6 +21,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'markers.api', 'templ
         });
     }, false);
 
+    /*
+    Add watcher for online state
+    */
     //    $rootScope.$watch('online', function (newStatus) {
     //        console.log('online chenge! ' + $rootScope.online);
     //    });
@@ -44,7 +47,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'markers.api', 'templ
 
 .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
-
         .state('app', {
             url: '/app',
             abstract: true,
@@ -60,6 +62,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'markers.api', 'templ
                 }
             }
         });
-    // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/map');
 });
